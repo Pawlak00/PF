@@ -1,0 +1,10 @@
+f x = x*x + 2*x + 1
+f1 x y= if y>x then y*y else x*x
+f2 x y = if x>y then x else y
+f3 x y = x++y
+f4 x y= read x + read y
+f5 x y = show x ++ show y
+f6 (x1 ,y1) (x2,y2)=(x1-x2)**2 + (y2-y1)**2 
+f7 x= if x<0 then -x else x
+f8 (x1,y1) (x2,y2)= ((f7 (x1-x2)) + (f7 (y1-y2)))
+f9 (x1,y1) (x2,y2) = [(x1*2,y1*2), (x2*2,y2*2)]
